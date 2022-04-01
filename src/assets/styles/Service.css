@@ -1,0 +1,42 @@
+h1 {
+  /* Set max and min font sizes */
+  --max-font: 40;
+  --min-font: 25;
+  font-family: var(--main-font);
+  font-size: var(--responsive);
+}
+
+p {
+  font-family: sans-serif;
+  margin: auto;
+  width: fit-content;
+
+  /* Set max and min font sizes */
+  --max-font: 20;
+  --min-font: 14;
+  font-size: var(--responsive);
+}
+
+@media (min-width: 1200px) {
+  h1,
+  p {
+    font-size: calc(var(--max-font) * 1px);
+  }
+}
+
+@media (max-width: 420px) {
+  h1,
+  p {
+    font-size: calc(var(--min-font) * 1px);
+  }
+}
+
+.service-text {
+  margin-left: 13%;
+  margin-right: 8%;
+}
+
+.service-all {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}

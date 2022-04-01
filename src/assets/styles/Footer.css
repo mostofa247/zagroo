@@ -1,0 +1,343 @@
+.footer-gray {
+  background-color: #e2e8f0;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.footer-logo {
+  height: 35px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-custom {
+  color: #888;
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1300px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.footer-custom:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-lists:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-service-title {
+  color: #888;
+  font: 15px "BebasNeueRegular", BebasNeue, "Bebas Neue", Arial, sans-serif;
+  margin: 2em 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-service-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.ftr-hdr {
+  color: #019aeb;
+  font: 20px/1.4 "BebasNeueRegular", BebasNeue, "Bebas Neue", Arial, sans-serif;
+}
+/*margin: 1em 0 0;*/
+
+@media only screen and (min-width: 768px) {
+  .ftr-hdr {
+    font-size: 25px;
+  }
+}
+
+.footer-list-wrap {
+  width: 51%;
+  float: left;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 568px) {
+  .footer-list-wrap {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-list-wrap {
+    width: 33%;
+  }
+}
+
+.ftr-details-sub {
+  padding: 0;
+  margin: 0;
+  margin-top: 26px;
+}
+
+.ftr-details-sub:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.ftr-details-sub li {
+  display: block;
+  list-style-type: none;
+  margin: auto;
+  padding: 3px 0;
+  color: #8888;
+  font: normal normal 15px "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin-top: 10px;
+  /*width: 150px;*/
+}
+
+.ftr-links-sub {
+  padding: 0;
+  margin: 0;
+}
+
+.ftr-links-sub:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.ftr-links-sub li {
+  display: block;
+  list-style-type: none;
+  margin: auto;
+  padding: 3px 0;
+  color: #8888;
+  font: normal normal 15px "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /*width: 150px;*/
+}
+
+.ftr-links-sub li a:hover {
+  color: rgb(109, 97, 97);
+}
+
+.footer-custom a,
+.footer-custom a:link,
+.footer-custom a:visited,
+.ftr-links-sub li .link {
+  text-decoration: none;
+  color: #888;
+  padding: 5px 0;
+  display: block;
+  margin-top: 2px;
+}
+
+.footer-custom .footer-legal a {
+  display: inline;
+}
+
+.footer-custom a:hover,
+.footer-custom a:active,
+.ftr-links-sub li .link:hover {
+  text-decoration: none;
+  color: #888;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-custom a,
+  .footer-custom a:link,
+  .footer-custom a:visited,
+  .ftr-links-sub li .link {
+    padding: 0;
+  }
+}
+/* BEGIN EMAIL CAPTURE STYLES*/
+
+.footer-email {
+  text-align: left;
+  width: 100%;
+}
+
+#ftrEmailForm {
+  height: 44px;
+  margin-top: 33px;
+}
+
+#ftrEmailForm .error {
+  display: none;
+  color: red;
+  text-align: left;
+}
+
+#ftrEmailForm #ftrEmailInput {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  color: #888;
+  float: left;
+  font: normal normal 14px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding: 2px;
+  padding-left: 15px;
+  width: 54.6666%;
+  height: 100%;
+  border-radius: 4px 4px 4px 4px;
+}
+
+#ftrEmailForm #ftrEmailInput:hover {
+  border: 1px solid #888;
+}
+
+#ftrEmailForm #ftrEmailInput:focus {
+  border: 1px solid #0ea5e9;
+  outline: #0ea5e9 auto 0.25px;
+}
+
+#ftrEmailForm .button {
+  width: 100px;
+  height: 100%;
+  padding: 5px;
+  margin-left: 5px;
+  float: left;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  color: #000;
+  border-radius: 4px 4px 4px 4px;
+  font: normal bold 18px/1 BebasFamily, BebasNeueRegular, "Bebas Neue",
+    Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fff;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, white),
+    color-stop(100%, #e1e1e1)
+  );
+  background: -webkit-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -moz-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -ms-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -o-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: linear-gradient(to bottom, white 0, #e1e1e1 100%);
+  cursor: pointer;
+  vertical-align: middle;
+  outline: none;
+}
+
+#ftrEmailForm .button:hover,
+#ftrEmailForm .button:active {
+  background: #0ea5e9;
+  color: #fff;
+  outline: none;
+}
+/* BEGIN SOCIAL STYLES*/
+
+@media only screen and (min-width: 768px) {
+  .footer-lists {
+    width: 100%;
+  }
+  .footer-email {
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+  .footer-social {
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  .footer-lists {
+    width: 66.6666%;
+    float: left;
+  }
+  .footer-email {
+    width: 33.3333%;
+  }
+}
+
+.footer-legal {
+  padding: 18px 0 0;
+  clear: left;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-legal {
+    width: 19.666%;
+    float: left;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 5%;
+  }
+  .footer-legal p {
+    font-size: 15px;
+  }
+}
+
+/* BEGIN SOCIAL STYLES*/
+
+.footer-social {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer-social ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-social ul:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-social li {
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 0;
+  font-size: medium;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-lists {
+    width: 100%;
+  }
+  .footer-email {
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+  .footer-social {
+    width: 100%;
+    float: right;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  .footer-lists {
+    width: 66.6666%;
+    float: left;
+  }
+  .footer-email {
+    width: 33.3333%;
+  }
+  .footer-social {
+    width: 33.3333%;
+    float: right;
+    margin-left: 0;
+  }
+}
